@@ -7,7 +7,7 @@ export default defineConfig({
 		starlight({
 			title: 'JSONLinks',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/MarcosKlender/JSONLinks',
 			},
 			sidebar: [
 				{
