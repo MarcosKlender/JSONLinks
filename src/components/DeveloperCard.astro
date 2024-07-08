@@ -1,0 +1,22 @@
+---
+type Props = {
+  img?: string;
+  github?: string;
+};
+
+const { img, github } = Astro.props;
+---
+
+<div class="not-content">
+  <a href={github} target="_blank" rel="noopener noreferrer">
+        <img src={img} alt="Github avatar" />
+    </a>
+</div>
+
+<style>
+  img {
+    border-radius: 0.5rem;
+    width: 100px;
+    height: 100px;
+  }
+</style>

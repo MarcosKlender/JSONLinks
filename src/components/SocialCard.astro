@@ -1,0 +1,138 @@
+---
+import { Icon } from "@astrojs/starlight/components";
+
+type Props = {
+  title?: string;
+  text?: string;
+  img?: string;
+  linkedin?: string;
+  github?: string;
+  instagram?: string;
+  youtube?: string;
+  twitch?: string;
+};
+
+const { title, text, img, linkedin, github, instagram, youtube, twitch } = Astro.props;
+---
+
+<div class="card not-content">
+  <img src={img} alt="Github avatar" />
+  <div class="container">
+    <h2>{title}</h2>
+    <p>{text}</p>
+
+    <div class="socials">
+      {
+        linkedin && (
+          <a
+            href={linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <Icon name="linkedin" size="1.5rem" />
+          </a>
+        )
+      }
+      {
+        github && (
+          <a
+            href={github}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <Icon name="github" size="1.5rem" />
+          </a>
+        )
+      }
+      {
+        instagram && (
+          <a
+          href={instagram}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="instagram"
+          >
+            <Icon name="instagram" size="1.5rem" />
+          </a>
+        )
+      }
+      {
+        youtube && (
+          <a
+            href={youtube}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="youtube"
+          >
+            <Icon name="youtube" size="1.5rem" />
+          </a>
+        )
+      }
+      {
+        twitch && (
+          <a
+            href={twitch}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="twitch"
+          >
+            <Icon name="twitch" size="1.5rem" />
+          </a>
+        )
+      }
+    </div>
+  </div>
+</div>
+
+<style>
+  img {
+    border-radius: 0.5rem;
+    width: 150px;
+    height: 150px;
+  }
+
+  h2 {
+    font-size: var(--sl-text-h2);
+  }
+
+  a {
+    color: currentColor;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .card {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container {
+      align-items: center;
+    }
+  }
+</style>
