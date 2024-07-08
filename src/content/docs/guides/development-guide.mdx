@@ -1,0 +1,149 @@
+---
+title: 📚 Development Guide
+description: Learn more about how we work.
+sidebar:
+  order: 2
+---
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+Here you have the expectations to submit your projects.
+
+## What we expect
+
+We expect all projects to make use of a JSON file to edit the content of the website you developed.
+In order to keep this website simple and reduce maintenance costs, we ask that you upload your projects to your own GitHub repository highlighting the following aspects:
+
+### Show your JSON
+You need to provide JSON that your project is going to use and, if necessary, explain its structure.
+
+Example:
+
+```json
+// index.json
+{
+  "html": {
+    "lang": "",
+    "title": "",
+    "description": "",
+    "favicon": ""
+  },
+  "header": {
+    "image": "",
+    "alt": "",
+    "title": "",
+    "description": ""
+  },
+  "buttons": [
+    {
+      "network": "",
+      "url": "",
+      "title": ""
+    },
+    {
+      "network": "",
+      "url": "",
+      "title": ""
+    }
+  ],
+  "footer": {
+    "copyright": "",
+    "url": ""
+  }
+}
+```
+
+### Front-End
+
+We ask you to provide the tool that, making use of your JSON, will allow us to build your project. Feel free to use the framework or technology you are most comfortable with.
+
+Example:
+
+<LinkCard
+  title="Astro Framework"
+  description="The web framework for content-driven websites."
+  href="https://astro.build"
+  target="_blank"
+/>
+
+### ReadMe
+
+We consider the explanation about how your project works is vital for the correct use of it. Please be as specific as you can. You can use this template as a baseline:
+
+```md
+// README.md
+
+<a id="readme-top"></a>
+
+<div align="center">
+
+<!--- LOGO --->
+
+</div>
+
+<h1 align="center">Title</h1>
+
+<div align="center">
+
+<!--- BADGES --->
+
+Description.
+
+</div>
+
+<!--- SCREENSHOT --->
+
+
+## Table of Contents
+
+<!--- CONTENT --->
+
+## About The Project
+
+<!--- CONTENT --->
+
+<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
+
+
+## Getting Started
+
+### Prerequisites
+
+<!--- CONTENT --->
+
+### Installation
+
+<!--- CONTENT --->
+   
+<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
+
+
+## JSON
+
+<!--- CONTENT --->
+
+<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
+
+
+## Contributing
+
+<!--- CONTENT --->
+
+<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
+
+
+## License
+
+<!--- CONTENT --->
+
+<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
+```
+
+Example:
+
+<LinkCard
+  title="README.md"
+  description="Here you have a use case for this template. Feel free to adapt it to your needs."
+  href="https://github.com/MarcosKlender/AstroLinkHub/blob/main/README.md"
+  target="_blank"
+/>

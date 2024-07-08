@@ -1,7 +1,11 @@
 ---
 title: 👋🏻 Getting Started
 description: Learn more about JSONLinks.
+sidebar:
+  order: 1
 ---
+
+import { LinkCard } from '@astrojs/starlight/components';
 
 Welcome to this Open Source Initiative where you will find JSON based links pages.
 
@@ -11,9 +15,11 @@ Our goal is to be a useful repository for all developers looking to create proje
 
 ## Why JSON?
 
-We are confident that the JSON format is here to stay. It's lightweight, easy to manipulate and perfect for building efficient websites.
+We are confident that JSON is here to stay because it is a lightweight, readable data format with wide compatibility and performance benefits, making it a great choice for web development.
 
+:::tip[Advice]
 Believe me when I tell you that if you combine a JSON file and the framework of your choice you can build practically anything. Your imagination is the limit. 
+:::
 
 ## First Project
 
@@ -29,6 +35,16 @@ For developers, by developers.
 
 ## Useful tools
 
-JSON Formatter & Validator - https://www.toptal.com/developers/json-formatter
+<LinkCard
+  title="JSON Formatter"
+  description="Paste a JSON snippet or URL to validate its format."
+  href="https://www.toptal.com/developers/json-formatter"
+  target="_blank"
+/>
 
-Parse JSON in any language - https://app.quicktype.io/
+<LinkCard
+  title="Quicktype"
+  description="Convert JSON into gorgeous, typesafe code in any language."
+  href="https://app.quicktype.io"
+  target="_blank"
+/>
