@@ -1,0 +1,67 @@
+---
+import { Badge } from "@astrojs/starlight/components";
+
+type Props = {
+    img?: string;
+    github?: string;
+    title?: string;
+    text?: string;
+    badge1?: string;
+    badge2?: string;
+    badge3?: string;
+    variant1?: string;
+    variant2?: string;
+    variant3?: string;
+};
+
+const { img, github, title, text, badge1, badge2, badge3, variant1, variant2, variant3 } = Astro.props;
+---
+
+<div class="card not-content">
+    <a href={github} target="_blank" rel="noopener noreferrer">
+        <img src={img} alt="Template preview" />
+        <div class="badges">
+            <Badge text={badge1} variant={variant1} size="large" />
+            <Badge text={badge2} variant={variant2} size="large" />
+            <Badge text={badge3} variant={variant3} size="large" />
+        </div>
+        <h2>{title}</h2>
+        <p>{text}</p>
+    </a>
+</div>
+
+<style>
+    a {
+        text-decoration: none;
+        color: currentColor;
+        padding: 1rem;
+    }
+
+    img {
+        border-radius: 0.5rem;
+        width: 100%;
+        height: auto;
+    }
+
+    h2 {
+        font-size: var(--sl-text-h2);
+    }
+
+    p {
+        padding-bottom: 1rem;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+        border: 1px solid var(--sl-color-gray-5);
+        border-radius: 0.5rem;
+        text-align: center;
+    }
+
+    .badges {
+        padding-top: 0.5rem;
+    }
+</style>

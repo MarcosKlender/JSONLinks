@@ -13,6 +13,11 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
+					label: '🚀 Templates',
+					link: '/templates',
+					badge: { text: 'NEW', variant: 'caution' }
+				},
+				{
 					label: 'Guides',
 					autogenerate: { directory: 'guides' },
 				},

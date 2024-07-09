@@ -9,11 +9,12 @@ hero:
   actions:
     - text: Get Started
       link: /guides/getting-started/
-      icon: rocket
+      icon: open-book
       variant: primary
-    - text: Github Repo
-      link: https://github.com/MarcosKlender/JSONLinks
-      icon: github
+    - text: Templates
+      link: /templates
+      icon: rocket
+      variant: secondary
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
@@ -35,16 +36,16 @@ From the smallest visual fix to fixing a complete project, every contribution is
 ## Roadmap
 
 <CardGrid stagger>
-	<Card title="First ToDo" icon="star">
+	<Card title="First" icon="approve-check-circle">
 		Create a new page and show the `AstroLinkHub` project.
 	</Card>
-	<Card title="And then" icon="document">
+	<Card title="Later on" icon="warning">
 		Update the `README` file.
 	</Card>
-	<Card title="Later on" icon="magnifier">
+	<Card title="And then" icon="warning">
 		Make or buy a logo for `JSONLinks`.
 	</Card>
-	<Card title="Finally" icon="astro">
+	<Card title="Finally" icon="warning">
 		Keep this `exciting` project alive!
 	</Card>
 </CardGrid>
