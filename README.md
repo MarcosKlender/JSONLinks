@@ -1,54 +1,67 @@
-# Starlight Starter Kit: Basics
+<a id="readme-top"></a>
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+<div align="center">
 
-```
-npm create astro@latest -- --template starlight
-```
+![Astro](https://astro.build/assets/press/astro-icon-light-gradient.svg)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Fbasics&project-name=my-starlight-docs&repository-name=my-starlight-docs)
+</div>
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+<h1 align="center">JSONLinks</h1>
 
-## 🚀 Project Structure
+<div align="center">
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
 
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   ├── docs/
-│   │   └── config.ts
-│   └── env.d.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
+![Astro](https://img.shields.io/badge/Astro-0C1222?style=for-the-badge&logo=astro&logoColor=FDFDFE)
+![MDX](https://img.shields.io/badge/MDX-1B1F24?style=for-the-badge&logo=mdx&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![TipeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+Welcome to this repository where you will find JSON based links pages. 
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+</div>
 
-Static assets, like favicons, can be placed in the `public/` directory.
+![JSONLinks Screenshot](/public/screenshot.webp)
 
-## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
+## Table of Contents
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+  <ol>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+  </ol>
 
-## 👀 Want to learn more?
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+## About The Project
+
+Our goal is to be a useful repository for all developers looking to create projects in a simple way without cost. Let’s prove that in open source community we always support each other.
+
+We are confident that JSON is here to stay because it is a lightweight, readable data format with wide compatibility and performance benefits, making it a great choice for web development.
+
+<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
+
+
+## Getting Started
+
+All you have to do is visit the **[Templates page]([xd](https://jsonlinks.netlify.app/templates/))** and choose the one you like most. Clicking on it will redirect you to its repository where you will find the step-by-step guide on how to use it in your personal or professional projects.
+
+Remember that all the templates you find here are free, FOREVER!
+
+<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
+
+
+## Contributing
+
+We encourage everyone to contribute with your own ideas, projects and solutions. All recommendations and suggestions are welcome. From small visual changes and bug fixes to large ready-to-use projects, all contributions are welcome.
+
+**Don't forget to star this project!** ⭐
+
+<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
+
+
+## License
+
+Distributed under the MIT License. `Open Source` is pretty self-descriptive.
+
+<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
