@@ -8,17 +8,39 @@ hero:
     file: ../../assets/houston.webp
 ---
 
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 import TemplateCard from '../../components/TemplateCard.astro';
 
-<TemplateCard 
-  img="https://raw.githubusercontent.com/MarcosKlender/AstroLinkHub/main/public/screenshot.webp"
-  github="https://github.com/MarcosKlender/AstroLinkHub"
-  title="AstroLinkHub"
-  text="Open source links page, customizable via JSON. Made with Astro 4."
-  badge1="Astro"
-  variant1="tip"
-  badge2="CSS3"
-  variant2="note"
-  badge3="JavaScript"
-  variant3="caution"
+<CardGrid>
+  <TemplateCard 
+    img="https://raw.githubusercontent.com/MarcosKlender/AstroLinkHub/main/public/screenshot.webp"
+    github="https://github.com/MarcosKlender/AstroLinkHub"
+    title="AstroLinkHub"
+    text="Open source links page, customizable via JSON. Made with Astro 4."
+    badge1="Astro"
+    variant1="tip"
+    badge2="CSS3"
+    variant2="note"
+    badge3="JavaScript"
+    variant3="caution"
+  />
+
+  <TemplateCard 
+    img="https://placehold.jp/3d4070/ffffff/540x405.png?text=Template%20Screenshot"
+    github="https://github.com/MarcosKlender/JSONLinks"
+    title="Template Name"
+    text="Description."
+    badge1="Badge 1"
+    variant1="tip"
+    badge2="Badge 2"
+    variant2="note"
+    badge3="Badge 3"
+    variant3="caution"
+  />
+</CardGrid>
+
+<LinkCard
+  title="More templates coming soon!"
+  description="You can submit your own templates too. See how you can contribute here."
+  href="https://github.com/MarcosKlender/JSONLinks"
 />
